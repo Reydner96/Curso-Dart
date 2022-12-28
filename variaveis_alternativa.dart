@@ -38,15 +38,16 @@ void main() {
 Vai mostra 26 anos 
  */
 
-/*
+/* Variaveis alternativas:
+
   var: e uma variavel flexivel para 
   receber qualquer dado seja ele int double string
+
   dynamic: vai aceitar qual tipo de dado que for atribuido 
   a ela
-
+*/
 void main() {
   dynamic idade;
-  idade = 'Reydner'; Pode ser int double sting 
-  print(idade;)
+  idade = 'Reydner'; //Pode ser int double sting
+  print(idade);
 }
-*/ 
