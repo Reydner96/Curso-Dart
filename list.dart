@@ -16,5 +16,15 @@ void main() {
     14,
     15
   ];
-  print(listaProdutos);
+  print(listaProdutos.length);
+  print(listaProdutos[10]);
 }
+
+
+/* 
+  Para imprimir a posição de um numero na 
+  list utiliza se 
+  print(listaProdutos[10]);
+  pois assim vai puxar a localização 
+  onde ele se enconta na list. 
+*/
