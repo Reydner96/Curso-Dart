@@ -2,6 +2,7 @@ import '../lib/classes/pessoa_abstract.dart';
 import '../lib/classes/pessoafisica.dart';
 import '../lib/classes/pessoajurica.dart';
 import '../lib/enum/tipo_notificacao.dart';
+import '../lib/services/enviarNotificacao.dart';
 
 void main(List<String> arguments) {
   var pessoaFisica1 = PessoaFisica("Danilo", "Rua 1", "2222222222",
